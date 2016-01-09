@@ -26,10 +26,10 @@ public class PoolDataSourceRegistration {
             cpds = new ComboPooledDataSource();
 
             cpds.setDriverClass("com.mysql.jdbc.Driver"); //loads the jdbc driver
-            cpds.setJdbcUrl("jdbc:mysql://" + "122.176.71.171" + "/registration?");
+            cpds.setJdbcUrl("jdbc:mysql://" + "122.176.71.171" + "/?");
 
             cpds.setUser("root");
-            cpds.setPassword("v721PL7y");
+            cpds.setPassword("v");
 
             // the settings below are optional -- c3p0 can work with defaults
             cpds.setMinPoolSize(10);
